@@ -28,7 +28,7 @@ public class User implements UserDetails, Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name="id", nullable=false, updatable = false)
+	@Column(name="Id", nullable=false, updatable = false)
 	private Long id;
 	
 	private String username;
